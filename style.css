@@ -1,0 +1,222 @@
+h1,
+h2,
+h3,
+h4 {
+    text-align: left;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 0%;
+}
+
+h2 {
+    font-size: 2rem;
+    margin: 2% 0%;
+    background-color: #ebf1f4;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin: 3% 0% 0%;
+}
+
+h4 {
+    font-size: 1rem;
+    margin: 3% 0% 0%;
+}
+
+
+.row {
+    padding: 3% 10%;
+    margin: 0%;
+}
+
+#left {
+    background-color: #fff;
+    padding: 3% 2%;
+}
+
+.left-hr {
+    width: 70%;
+    height: 0.2%;
+    background-color: #1c3e53;
+    float: left;
+    margin: 0%;
+}
+
+.left-p {
+    font-size: 1rem;
+    margin: 0%;
+    font-weight: 450;
+}
+
+td {
+    width: 23%;
+    font-size: 1rem;
+    font-weight: 450;
+}
+
+#right {
+    background-color: #1c3e53;
+    padding: 2% 3%;
+    color: #fff;
+    text-align: center;
+}
+
+.right-image {
+    width: 100%;
+    border-radius: 100%;
+    border: 2px solid #0a1c24;
+    margin: 10% 0%;
+}
+
+.right-hr {
+    width: 100%;
+    height: 0.05%;
+    background-color: #7c848e;
+    margin: 1% 0% 0%;
+}
+
+.contact {
+    margin: 10% 0;
+}
+
+.skills {
+    margin-top: 5%;
+}
+
+.right-p {
+    font-size: 0.8rem;
+    margin: 0%;
+    padding: 0%;
+    position: relative;
+    left: 15%;
+    text-align: left;
+}
+
+@media (max-width:1028px) {
+    h1 {
+        font-size: 1.7rem;
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
+
+    .left-h2 {
+        font-size: 1.1rem;
+    }
+
+    h3 {
+        font-size: 0.9rem;
+    }
+
+    h4 {
+        font-size: 0.8rem;
+    }
+
+    .left-p {
+        font-size: 0.65rem;
+    }
+
+    td {
+        font-size: 0.65rem;
+    }
+
+    .right-image {
+        width: 80%;
+        margin: 0%;
+    }
+
+    .right-p {
+        font-size: 0.6rem;
+        position: relative;
+        left: 15%;
+    }
+}
+
+@media (max-width:720px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
+
+    .left-h2 {
+        font-size: 1rem;
+    }
+
+    h3 {
+        font-size: 0.9rem;
+    }
+
+    h4 {
+        font-size: 0.75rem;
+        margin-top: 7%;
+    }
+
+    .left-p {
+        font-size: 0.6rem;
+        font-weight: 500;
+    }
+
+    td {
+        font-size: 0.6rem;
+        font-weight: 500;
+    }
+
+    .right-p {
+        font-size: 0.5rem;
+    }
+
+
+}
+
+@media (max-width:540px) {
+    h1 {
+        font-size: 1.2rem;
+    }
+
+    h2 {
+        font-size: 0.8rem;
+        margin-top: 2%;
+    }
+
+    .left-h2 {
+        font-size: 0.8rem;
+        margin-top: 2%;
+    }
+
+    h3 {
+        font-size: 0.7rem;
+    }
+
+    h4 {
+        font-size: 0.6rem;
+    }
+
+    .left-p {
+        font-size: 0.45rem;
+        font-weight: 500;
+    }
+
+    td {
+        font-size: 0.45rem;
+        font-weight: 500;
+    }
+
+    .right-image {
+        width: 80%;
+    }
+
+    .right-p {
+        font-size: 0.45rem;
+        position: relative;
+        left: 13%;
+    }
+
+
+}
