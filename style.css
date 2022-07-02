@@ -196,10 +196,13 @@ i {
     }
 
     .left-p,
-    td,
+    td {
+        font-size: 0.65rem;
+    }
+
     .h4-link,
     .h4-td {
-        font-size: 0.65rem;
+        font-size: 0.6rem;
     }
 
     .right-image {
