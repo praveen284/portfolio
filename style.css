@@ -151,7 +151,9 @@ i {
     }
 
     .left-p,
-    td {
+    td,
+    .h4-link,
+    .h4-td {
         font-size: 0.7rem;
     }
 
@@ -194,7 +196,9 @@ i {
     }
 
     .left-p,
-    td {
+    td,
+    .h4-link,
+    .h4-td {
         font-size: 0.65rem;
     }
 
@@ -233,7 +237,9 @@ i {
     }
 
     .left-p,
-    td {
+    td,
+    .h4-link,
+    .h4-td {
         font-size: 0.5rem;
     }
 
